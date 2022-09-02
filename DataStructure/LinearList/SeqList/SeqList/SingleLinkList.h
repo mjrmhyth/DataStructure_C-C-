@@ -1,4 +1,5 @@
 #pragma once
+#include <stdlib.h>
 
 typedef struct LNode //定义单链表结点类型
 {
