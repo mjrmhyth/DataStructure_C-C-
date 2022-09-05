@@ -124,10 +124,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LinearList.cpp" />
+    <ClCompile Include="SeqList.c" />
     <ClCompile Include="SingleLinkList.cpp" />
+    <ClCompile Include="Test.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinearList.h" />
+    <ClInclude Include="SeqList.h" />
     <ClInclude Include="SingleLinkList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

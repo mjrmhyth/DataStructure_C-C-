@@ -1,4 +1,4 @@
-#define __CRT_SECURE_NO_WARNINGS 1
+#define _CRT_SECURE_NO_WARNINGS 1
 
 #include "SingleLinkList.h"
 
@@ -12,7 +12,7 @@ bool InitList(LinkList &L)
 	return true;
 }
 
-
+/*
 LNode * GetElem(LinkList L, int i)
 {
 	int j = 1;
@@ -28,7 +28,7 @@ LNode * GetElem(LinkList L, int i)
 	}
 	return p;
 }
-
+*/
 /*
 功能：单链表的插入,在第i个位置插入元素e
 */
@@ -128,10 +128,10 @@ LinkList List_TailInsert(LinkList &L)//正向建立单链表
 	return L;
 }
 
-
+/*
 int main()
 {
 	LinkList L;//声明一个指向单链表的指针
 	InitList(L);//初始化一个空表
 	return 0;
-}
+}*/

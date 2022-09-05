@@ -61,6 +61,7 @@ bool ListDelete(SeqList &L, int i, int &e)
 	return true;
 }
 
+/*
 int main()
 {
 	//SqList L;//申明一个顺序表
@@ -82,4 +83,4 @@ int main()
 	else
 		printf("位序i不合法，删除失败\n");
 	return 0;
-}
+}*/
